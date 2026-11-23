@@ -1,0 +1,194 @@
+[
+  {
+    "id": "crisis",
+    "name": "Экономический кризис",
+    "description": "Спрос падает, а предприятия сокращают производство.",
+    "effects": {"money": -350, "stability": -4, "industry": -2}
+  },
+  {
+    "id": "growth",
+    "name": "Экономический подъём",
+    "description": "Рост спроса поддержал предприятия и государственную казну.",
+    "effects": {"money": 420, "economy_level": 1, "government_support": 2}
+  },
+  {
+    "id": "food",
+    "name": "Неурожай",
+    "description": "Плохая погода сократила запасы продовольствия.",
+    "effects": {"food": -18, "stability": -3}
+  },
+  {
+    "id": "protests",
+    "name": "Внутренние протесты",
+    "description": "Граждане требуют уступок и изменения курса правительства.",
+    "effects": {"stability": -8, "government_support": -5, "unrest": 8}
+  },
+  {
+    "id": "government",
+    "name": "Правительственные реформы",
+    "description": "Новый кабинет укрепил государственное управление.",
+    "effects": {"stability": 6, "development": 3, "government_support": 3}
+  },
+  {
+    "id": "agreement",
+    "name": "Международное соглашение",
+    "description": "Торговый протокол открыл новые возможности для сотрудничества.",
+    "effects": {"money": 180, "relations": 8}
+  },
+  {
+    "id": "technology",
+    "name": "Технологический прорыв",
+    "description": "Предприятия внедрили новые производственные технологии.",
+    "effects": {"industry": 8, "development": 4, "research_points": 3}
+  },
+  {
+    "id": "disaster",
+    "name": "Природная катастрофа",
+    "description": "Чрезвычайное положение потребовало средств на восстановление.",
+    "effects": {"money": -500, "food": -8, "stability": -5, "development": -2}
+  },
+  {
+    "id": "harvest",
+    "name": "Богатый урожай",
+    "description": "Благоприятный сезон пополнил продовольственные запасы.",
+    "effects": {"food": 22, "money": 120, "stability": 2}
+  },
+  {
+    "id": "drought",
+    "name": "Засуха",
+    "description": "Засушливая погода ударила по фермам и продовольственным запасам.",
+    "effects": {"food": -20, "farms": -1, "stability": -3}
+  },
+  {
+    "id": "energy_shortage",
+    "name": "Энергетический дефицит",
+    "description": "Аварии на энергосетях вынудили предприятия сократить выпуск.",
+    "effects": {"energy": -18, "industry": -2, "money": -120}
+  },
+  {
+    "id": "energy_investment",
+    "name": "Энергетическая программа",
+    "description": "Ввод новых мощностей укрепил энергоснабжение страны.",
+    "effects": {"power_plants": 2, "energy": 10, "money": -180}
+  },
+  {
+    "id": "infrastructure",
+    "name": "Инфраструктурный проект",
+    "description": "Новые дороги и узлы связи ускорили развитие регионов.",
+    "effects": {"development": 6, "money": -240}
+  },
+  {
+    "id": "infrastructure_failure",
+    "name": "Износ инфраструктуры",
+    "description": "Аварии на старых объектах отвлекли средства от развития.",
+    "effects": {"development": -4, "money": -180, "stability": -2}
+  },
+  {
+    "id": "public_services",
+    "name": "Расширение общественных услуг",
+    "description": "Новые программы помогли семьям, но потребовали расходов.",
+    "effects": {"money": -220, "stability": 4, "government_support": 4, "unrest": -4}
+  },
+  {
+    "id": "corruption",
+    "name": "Коррупционный скандал",
+    "description": "Расследование выявило хищения государственных средств.",
+    "effects": {"money": -300, "government_support": -7, "unrest": 7}
+  },
+  {
+    "id": "tax_relief",
+    "name": "Налоговые послабления",
+    "description": "Снижение налоговой нагрузки поддержало население и бизнес.",
+    "effects": {"tax_rate": -2, "government_support": 4, "unrest": -3}
+  },
+  {
+    "id": "tax_increase",
+    "name": "Чрезвычайный сбор",
+    "description": "Правительство повысило налоги для покрытия растущих расходов.",
+    "effects": {"tax_rate": 2, "money": 260, "stability": -3, "unrest": 4}
+  },
+  {
+    "id": "foreign_investment",
+    "name": "Иностранные инвестиции",
+    "description": "Внешний капитал профинансировал расширение промышленности.",
+    "effects": {"money": 300, "industry": 4, "relations": 5}
+  },
+  {
+    "id": "capital_flight",
+    "name": "Отток капитала",
+    "description": "Инвесторы вывели средства, замедлив работу предприятий.",
+    "effects": {"money": -320, "industry": -3, "stability": -2}
+  },
+  {
+    "id": "scientific_program",
+    "name": "Научная программа",
+    "description": "Университеты и лаборатории получили финансирование исследований.",
+    "effects": {"money": -180, "research_points": 8, "development": 2}
+  },
+  {
+    "id": "military_contract",
+    "name": "Оборонный контракт",
+    "description": "Новые заказы укрепили армию, увеличив государственные расходы.",
+    "effects": {"money": -260, "military": 5, "army_readiness": 5}
+  },
+  {
+    "id": "desertion",
+    "name": "Падение дисциплины",
+    "description": "Недовольство в частях снизило готовность армии к действиям.",
+    "effects": {"army_readiness": -12, "war_support": -5, "unrest": 3}
+  },
+  {
+    "id": "national_unity",
+    "name": "Кампания национального единства",
+    "description": "Общественная кампания временно объединила сторонников правительства.",
+    "effects": {"government_support": 7, "stability": 3, "political_power": 5}
+  },
+  {
+    "id": "political_scandal",
+    "name": "Политический скандал",
+    "description": "Обнародованные документы подорвали доверие к кабинету.",
+    "effects": {"government_support": -9, "stability": -4, "unrest": 6}
+  },
+  {
+    "id": "trade_dispute",
+    "name": "Торговый спор",
+    "description": "Разногласия с партнёрами осложнили внешнюю торговлю.",
+    "effects": {"money": -220, "relations": -8}
+  },
+  {
+    "id": "market_boom",
+    "name": "Экспортный бум",
+    "description": "Высокий внешний спрос увеличил доходы предприятий.",
+    "effects": {"money": 340, "industry": 3, "government_support": 2}
+  },
+  {
+    "id": "factory_accident",
+    "name": "Авария на предприятии",
+    "description": "Производственная авария остановила часть мощностей и потребовала ремонта.",
+    "effects": {"industry": -4, "money": -160, "stability": -2}
+  },
+  {
+    "id": "urban_expansion",
+    "name": "Рост городов",
+    "description": "Новые городские кварталы расширили инфраструктуру и рынок услуг.",
+    "effects": {"development": 4, "economy_level": 1, "money": -280}
+  },
+  {
+    "id": "volunteer_drive",
+    "name": "Кампания добровольцев",
+    "description": "Патриотическая кампания привлекла людей в резерв.",
+    "effects": {"military": 3, "army_readiness": 8, "war_support": 4}
+  },
+  {
+    "id": "food_subsidy",
+    "name": "Продовольственные субсидии",
+    "description": "Государство поддержало фермеров и снизило риск нехватки продовольствия.",
+    "effects": {"money": -190, "food": 12, "farms": 2, "stability": 2}
+  },
+  {
+    "id": "administrative_reform",
+    "name": "Административная реформа",
+    "description": "Перестройка ведомств повысила эффективность управления.",
+    "effects": {"development": 3, "political_power": 8, "money": -140}
+  }
+]
